@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15/10/2018, 11:17:49
+    Author     : Jesiel
+*/
+
+botao{ text-align: center }
+
+input[type=submit]:hover {
+    background-color: graytext;
+ 
+}
+input[type=text], select, textarea {
+
+    width: 73%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=password], select, textarea {
+
+    width: 73%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+*{
+    box-sizing: border-box;
+}
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+input[type=submit] {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+fieldset{
+ border:2px solid blue;
+ background:white;
+ padding: 12px;
+  border-radius: 4px;
+}
+
+
+figuras{
+display:inline-block;
+padding-left:24px;
+line-height:16px;
+background-position:2px center;
+background-repeat:no-repeat;
+background-image:url(https://www.google.com.br/search?q=cadeado+icons&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjAxsvK2ZDeAhWFhpAKHdg4AX0Q_AUIDigB&biw=1536&bih=754#imgdii=vQHYZFiHxoj6aM:&imgrc=pOorC5dS98PucM:);
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon {
+    padding: 10px;
+    background: blue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid blue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
